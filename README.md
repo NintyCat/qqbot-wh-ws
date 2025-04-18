@@ -2,7 +2,7 @@
  
 QQ官方机器人webhook转websocket的工具
 
-签证使用了qqbot_webhook项目
+验证使用了qqbot_webhook项目的代码
 
 参考qbot-webhook-to-websocket项目，做了一层分发，可以根据群组ID分发消息，可用于区分测试环境和线上环境
 
