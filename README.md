@@ -10,19 +10,19 @@ QQ官方机器人webhook转websocket的工具
 
 1、回调地址(填写你自己的地址和secret，需已备案有证书，部分野鸡证书无效)：
 
-https://www.xxx.com/webhook?secret=xxxxxxxxxxxxxxxxxxx
+https://www.abcdefg.com/webhook?secret=xxxxxxxxxxxxxxxxxxx
 
 ![image](https://github.com/user-attachments/assets/2a0ba6b8-e3b6-4239-afd1-7c8859605a82)
 
 2、机器人socket连接地址，group-id为你需要单独分发的群组，不需要单独分发填0：
 
-wss://www.xxx.com/ws/{secret}/{group-id}
+wss://www.abcdefg.com/ws/{secret}/{group-id}
 
 如：
 
-线上使用：wss://www.xxx.com/ws/{secret}/0
+线上使用：wss://www.abcdefg.com/ws/{secret}/0
 
-测试使用：wss://www.xxx.com/ws/{secret}/B7C7A625AEA8A14D770B2BD87FD99827
+测试使用：wss://www.abcdefg.com/ws/{secret}/B7C7A625AEA8A14D770B2BD87FD99827
 
 匹配到B7C7A625AEA8A14D770B2BD87FD99827的群组就会分发给测试环境，其余分发给0，都没有则不分发。
 
